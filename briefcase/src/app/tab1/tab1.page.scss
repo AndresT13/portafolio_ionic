@@ -2,3 +2,26 @@
   max-height: 35vh;
   overflow: hidden;
 }
+.foto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+*{
+  background-color: #535E56;
+  font-family: sans-serif;
+  color: #E8E5D1;
+}
+
+ion-list {
+  background-color: red;
+}
+ion-item {
+  background-color: blue;
+}
+
+ion-item:hover {
+  background-color: #3DEA00;
+}
+
