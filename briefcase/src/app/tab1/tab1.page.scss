@@ -1,3 +1,13 @@
+.color_title {
+  --ion-background-color:  #242421;
+
+}
+
+.title_color {
+  color: #fbfbfb;
+
+}
+
 .welcome-card img {
   max-height: 35vh;
   overflow: hidden;
@@ -8,20 +18,39 @@
   border-radius: 50%;
 }
 
-*{
-  background-color: #535E56;
-  font-family: sans-serif;
-  color: #E8E5D1;
+.background_color {
+  --ion-background-color: #36B37E;
+  // #93cd1f;
+  --ion-text-color: white;
+ 
 }
 
-ion-list {
-  background-color: red;
-}
-ion-item {
-  background-color: blue;
+.color_header {
+  background-color:#344563;
+  
+  // #787a2c;
+
+  //  #2e3006;
+
 }
 
-ion-item:hover {
-  background-color: #3DEA00;
+.color_item {
+  --ion-background-color: #FF8B00;
 }
 
+.color_item_dos {
+  --ion-background-color: #FF991F;
+}
+
+.color_item_tres {
+  --ion-background-color:#FFAB00;
+}
+
+.color_item_cuatro {
+  --ion-background-color:#FFC400;
+}
+
+ion-item.item:hover a {
+  background-color: slategray;
+  box-shadow: inset 0px 0px 0px 1px red;
+}
